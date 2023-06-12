@@ -8,7 +8,7 @@ Software Quality Assurance Engineer
 
 - 🔭 I’m currently working on FinTech project
 - 🌱 I’m currently learning Test Automation
-- ⚡ Former Front-End Developer
+- ⭐ Former Front-End Developer
 
 
 ### Front-End Skills
