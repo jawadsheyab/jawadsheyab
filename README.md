@@ -10,7 +10,7 @@ Software Quality Assurance Engineer
 - 🌱 I’m currently dive into Test Automation world
 - ⭐ Former Front-End Developer
 - 📃 Holding several certificates in Testing ISTQB® - CTFL, CT-MAT
-- 🎮 eFootball Gamer
+- 🎮 eFootball Player
 - 🌍 Based in Amman, Jordan
 
 ### Front-End Skills
