@@ -6,10 +6,10 @@ Software Quality Assurance Engineer
 
 ### About Me
 
-- 🔭 I’m currently working on Fintech project
-- 🌱 I’m currently dive into Test Automation world
+- 🔭 I’m currently working on a Fintech project
+- 🌱 I’m currently diving into the Test Automation world
 - ⭐ Former Front-End Developer
-- 📃 Holding several certificates in Testing ISTQB® - CTFL, CT-MAT
+- 📃 Holding several certificates in Testing ISTQB® - CTFL, CT-MAT, CTFL-AT
 - 🎮 eFootball Player
 - 🌍 Based in Amman, Jordan
 
