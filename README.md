@@ -1,4 +1,4 @@
-Hi, My name is Jawad Alsheyab ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
+Say Hi, to the talent who never give up ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
 ===================================================================================================================================
 
 Software Quality Assurance Engineer
@@ -6,12 +6,12 @@ Software Quality Assurance Engineer
 
 ### About Me
 
-- 🔭 I’m currently working on a Fintech project
-- 🌱 I’m currently diving into the Test Automation world
+- 🔭 I’m currently working on Test Automation
+- 🌱 Solid experience in Manual Testing
 - ⭐ Former Front-End Developer
 - 📃 Holding several certificates in Testing ISTQB® - CTFL, CT-MAT, CTFL-AT
 - 🎮 eFootball™ Player
-- 🌍 Based in Amman, Jordan
+- 🌍 Based in Riyadh, Saudi Arabia
 
 ### Front-End Skills
 
