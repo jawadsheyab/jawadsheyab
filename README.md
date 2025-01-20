@@ -44,8 +44,7 @@ Software Quality Control Engineer
 ### Socials
 
 <p align="left">
-<a href="https://www.facebook.com/jawad.alsheyab.75" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /></a> &nbsp
-<a href="https://twitter.com/JawadSheyab" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" width="32" height="32" /></a> &nbsp
-<a href="https://www.linkedin.com/in/jkalsheyab" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a> &nbsp
-<a href="https://www.instagram.com/jawadsheyab/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a>
+<a href="https://www.facebook.com/jawad.alsheyab.75" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" alt="Facebook" title="Facebook" width="32" height="32" /></a> &nbsp
+<a href="https://twitter.com/JawadSheyab" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg" alt="Twitter" alt="Twitter" width="32" height="32" /></a> &nbsp
+<a href="https://www.linkedin.com/in/jkalsheyab" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" alt="Linkedin" alt="Linkedin" width="32" height="32" /></a>
 </p>
