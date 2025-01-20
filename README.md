@@ -1,4 +1,4 @@
-Say Hi, to the talent who never give up ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
+Say Hi, To The Talent Who Never Give Up ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)
 ===================================================================================================================================
 
 Software Quality Control Engineer
