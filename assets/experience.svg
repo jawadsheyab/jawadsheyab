@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="580" viewBox="0 0 900 580" role="img" aria-label="Experience: Senior Quality Control Engineer at Takamol (Qiwa) since 2025; Senior Quality Control Engineer at ZATCA 2024 to 2025; Senior Quality Assurance at STCpay 2022 to 2024; QA Engineer at Mixed Dimensions 2019 to 2022; Software Engineer at Javna 2017 to 2019.">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8ca8cc" stroke-opacity=".06"/>
+    </pattern>
+    <radialGradient id="glow" cx="0%" cy="0%" r="60%">
+      <stop offset="0" stop-color="#8b7bff" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#8b7bff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rail" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#34e5c9"/>
+      <stop offset="1" stop-color="#8b7bff" stop-opacity=".5"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="900" height="580" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .disp { font-family: 'Space Grotesk', 'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif; }
+    .body { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .e { animation: in .6s cubic-bezier(.2,.7,.2,1) both; }
+    @keyframes in { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+    .rail { stroke-dasharray: 440; animation: draw 1.6s ease .3s both; }
+    @keyframes draw { from { stroke-dashoffset: 440; } to { stroke-dashoffset: 0; } }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 1.8s ease-out infinite; }
+    @keyframes pulse { from { transform: scale(1); opacity: .6; } to { transform: scale(2.6); opacity: 0; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="580" fill="#060911"/>
+    <rect width="900" height="580" fill="url(#grid)"/>
+    <rect width="900" height="580" fill="url(#glow)"/>
+  </g>
+  <rect x=".5" y=".5" width="899" height="579" rx="15.5" fill="none" stroke="#8ca8cc" stroke-opacity=".18"/>
+
+  <!-- heading -->
+  <text x="40" y="46" class="mono" font-size="11.5" fill="#34e5c9" letter-spacing="2.5">EXPERIENCE</text>
+  <text x="40" y="80" class="disp" font-size="24" font-weight="700" fill="#e7ecf4">Seven years, five companies, one obsession with quality.</text>
+  <text x="40" y="108" class="mono" font-size="12.5" fill="#5d6a80"><tspan fill="#34e5c9">$</tspan> git log --graph --oneline career</text>
+
+  <!-- rail -->
+  <line class="rail" x1="56" y1="152" x2="56" y2="512" stroke="url(#rail)" stroke-width="2"/>
+
+  <!-- 1 Takamol -->
+  <g class="e" style="animation-delay:.3s">
+    <circle class="pulse" cx="56" cy="152" r="7" fill="#34e5c9"/>
+    <circle cx="56" cy="152" r="7" fill="#34e5c9" stroke="#060911" stroke-width="3"/>
+    <text x="80" y="157" class="mono" font-size="12" fill="#ffb454">a1f3e2c</text>
+    <text x="150" y="157" class="disp" font-size="17" font-weight="700" fill="#e7ecf4">Senior Quality Control Engineer</text>
+    <rect x="440" y="141" width="118" height="21" rx="10.5" fill="#34e5c9" fill-opacity=".14" stroke="#34e5c9" stroke-opacity=".45"/>
+    <text x="499" y="155.5" class="mono" font-size="10.5" fill="#34e5c9" text-anchor="middle" letter-spacing=".5">HEAD → present</text>
+    <text x="860" y="157" class="mono" font-size="11.5" fill="#8a96ab" text-anchor="end">01/2025 — NOW</text>
+    <text x="150" y="180" class="mono" font-size="12.5"><tspan fill="#34e5c9">@ Takamol · Qiwa</tspan><tspan fill="#5d6a80">  ·  Riyadh, SA</tspan></text>
+    <text x="150" y="201" class="body" font-size="13.5" fill="#8a96ab">Leads end-to-end testing across backend, API &amp; frontend for the Qiwa platform.</text>
+  </g>
+
+  <!-- 2 ZATCA -->
+  <g class="e" style="animation-delay:.6s">
+    <circle cx="56" cy="242" r="6" fill="#0d1420" stroke="#34e5c9" stroke-width="2"/>
+    <text x="80" y="247" class="mono" font-size="12" fill="#ffb454">9b7d4a1</text>
+    <text x="150" y="247" class="disp" font-size="17" font-weight="700" fill="#e7ecf4">Senior Quality Control Engineer</text>
+    <text x="860" y="247" class="mono" font-size="11.5" fill="#8a96ab" text-anchor="end">08/2024 — 01/2025</text>
+    <text x="150" y="270" class="mono" font-size="12.5"><tspan fill="#34e5c9">@ ZATCA</tspan><tspan fill="#5d6a80">  ·  Riyadh, SA</tspan></text>
+    <text x="150" y="291" class="body" font-size="13.5" fill="#8a96ab">Designed automation frameworks and test suites for tax-compliance systems.</text>
+  </g>
+
+  <!-- 3 STCpay -->
+  <g class="e" style="animation-delay:.9s">
+    <circle cx="56" cy="332" r="6" fill="#0d1420" stroke="#34e5c9" stroke-width="2"/>
+    <text x="80" y="337" class="mono" font-size="12" fill="#ffb454">5e2c8f0</text>
+    <text x="150" y="337" class="disp" font-size="17" font-weight="700" fill="#e7ecf4">Senior Quality Assurance</text>
+    <text x="860" y="337" class="mono" font-size="11.5" fill="#8a96ab" text-anchor="end">04/2022 — 08/2024</text>
+    <text x="150" y="360" class="mono" font-size="12.5"><tspan fill="#34e5c9">@ STCpay</tspan><tspan fill="#5d6a80">  ·  Riyadh, SA</tspan></text>
+    <text x="150" y="381" class="body" font-size="13.5" fill="#8a96ab">End-to-end payment testing through the STCpay → STC Bank transition.</text>
+  </g>
+
+  <!-- 4 Mixed Dimensions -->
+  <g class="e" style="animation-delay:1.2s">
+    <circle cx="56" cy="422" r="6" fill="#0d1420" stroke="#8b7bff" stroke-width="2"/>
+    <text x="80" y="427" class="mono" font-size="12" fill="#ffb454">3d91b7e</text>
+    <text x="150" y="427" class="disp" font-size="17" font-weight="700" fill="#e7ecf4">Quality Assurance Engineer</text>
+    <text x="860" y="427" class="mono" font-size="11.5" fill="#8a96ab" text-anchor="end">08/2019 — 03/2022</text>
+    <text x="150" y="450" class="mono" font-size="12.5"><tspan fill="#8b7bff">@ Mixed Dimensions</tspan><tspan fill="#5d6a80">  ·  Amman, JO</tspan></text>
+    <text x="150" y="471" class="body" font-size="13.5" fill="#8a96ab">API integration testing with Postman &amp; Swagger; turned requirements into test plans.</text>
+  </g>
+
+  <!-- 5 Javna -->
+  <g class="e" style="animation-delay:1.5s">
+    <circle cx="56" cy="512" r="6" fill="#0d1420" stroke="#8b7bff" stroke-width="2"/>
+    <text x="80" y="517" class="mono" font-size="12" fill="#ffb454">0c4a2d9</text>
+    <text x="150" y="517" class="disp" font-size="17" font-weight="700" fill="#e7ecf4">Software Engineer</text>
+    <rect x="322" y="501" width="62" height="21" rx="10.5" fill="#8b7bff" fill-opacity=".14" stroke="#8b7bff" stroke-opacity=".45"/>
+    <text x="353" y="515.5" class="mono" font-size="10.5" fill="#8b7bff" text-anchor="middle" letter-spacing=".5">init</text>
+    <text x="860" y="517" class="mono" font-size="11.5" fill="#8a96ab" text-anchor="end">07/2017 — 08/2019</text>
+    <text x="150" y="540" class="mono" font-size="12.5"><tspan fill="#8b7bff">@ Javna</tspan><tspan fill="#5d6a80">  ·  Amman, JO</tspan></text>
+    <text x="150" y="561" class="body" font-size="13.5" fill="#8a96ab">Built web apps with ASP.NET, React &amp; SQL Server: the developer roots of a tester.</text>
+  </g>
+</svg>

@@ -1,0 +1,198 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="500" viewBox="0 0 900 500" role="img" aria-label="An endless zoom through Jawad Alsheyab's world: a terminal prompt seen through a magnifier, a bug caught in a code diff, an orbit of five companies, a ring of six certifications and a gear of sixteen testing skills, then back to the same prompt.">
+  <defs>
+    <clipPath id="frame"><rect width="900" height="500" rx="18"/></clipPath>
+    <clipPath id="annulus"><path d="M-158 0A158 158 0 1 0 158 0A158 158 0 1 0 -158 0ZM-43 0A43 43 0 1 0 43 0A43 43 0 1 0 -43 0Z" clip-rule="evenodd"/></clipPath>
+    <radialGradient id="vignette" cx="50%" cy="50%" r="75%">
+      <stop offset=".45" stop-color="#060911" stop-opacity="0"/>
+      <stop offset="1" stop-color="#060911" stop-opacity=".92"/>
+    </radialGradient>
+    <linearGradient id="hudTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#060911" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#060911" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="hudBottom" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#060911" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#060911" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="core" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#34e5c9" stop-opacity=".9"/>
+      <stop offset="1" stop-color="#34e5c9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <style>
+    text { font-family: 'JetBrains Mono','SFMono-Regular','Cascadia Code',Consolas,'Liberation Mono',Menlo,monospace; }
+    .turn, .zoom { transform-box: view-box; transform-origin: 0 0; will-change: transform; }
+    .turn { animation: turn 8s linear infinite; }
+    .zoom { animation: zoom 8s infinite; }
+    @keyframes turn { from{transform:translate(450px,250px) rotate(-35deg)}to{transform:translate(450px,250px) rotate(35deg)} }
+    @keyframes zoom { 0%{transform:scale(0.03125);animation-timing-function:cubic-bezier(.3333,0.15,.6667,0.38)}20%{transform:scale(0.125);animation-timing-function:cubic-bezier(.3333,0.15,.6667,0.38)}40%{transform:scale(0.5);animation-timing-function:cubic-bezier(.3333,0.15,.6667,0.38)}60%{transform:scale(2);animation-timing-function:cubic-bezier(.3333,0.15,.6667,0.38)}80%{transform:scale(8);animation-timing-function:cubic-bezier(.3333,0.15,.6667,0.38)}100%{transform:scale(32);animation-timing-function:cubic-bezier(.3333,0.15,.6667,0.38)} }
+    .blink { animation: blink 1.2s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: .15; } }
+    @media (prefers-reduced-motion: reduce) { .turn, .zoom, .blink { animation-play-state: paused; } }
+  </style>
+
+  <g clip-path="url(#frame)">
+    <rect width="900" height="500" fill="#060911"/>
+  <g class="turn" transform="translate(450 250) rotate(14)" style="animation-delay:-5.6s">
+    <g class="zoom" transform="scale(4)" style="animation-delay:-5.6s">
+    <path d="M-160.6 0A160.6 160.6 0 1 0 160.6 0A160.6 160.6 0 1 0 -160.6 0ZM-39.4 0A39.4 39.4 0 1 0 39.4 0A39.4 39.4 0 1 0 -39.4 0Z" fill="#0b1220" fill-rule="evenodd"/>
+    <circle r="160" fill="none" stroke="#34e5c9" stroke-opacity=".3" stroke-width=".8"/>
+    <text y="-124" font-size="6" fill="#5d6a80" text-anchor="middle" letter-spacing=".6">~/jawadsheyab — zsh</text>
+    <text y="-101" font-size="8.4" text-anchor="middle"><tspan fill="#34e5c9">jawad@qa</tspan><tspan fill="#5d6a80">:~$ </tspan><tspan fill="#e7ecf4">inspect --until-it-cant-break</tspan></text>
+    <text y="-82" font-size="6.6" fill="#8a96ab" text-anchor="middle">› zooming into the code under test…</text>
+    <text y="-64" font-size="6.6" fill="#5d6a80" text-anchor="middle">› depth: ∞</text>
+    <line x1="31" y1="31" x2="64" y2="64" stroke="#ffb454" stroke-width="10" stroke-linecap="round"/>
+    <line x1="31" y1="31" x2="40" y2="40" stroke="#c98a3c" stroke-width="11"/>
+    <circle r="42" fill="none" stroke="#34e5c9" stroke-width="4.5"/>
+    <path d="M-38.06 -17.75A42 42 0 0 1 -14.36 -39.47" fill="none" stroke="#fff" stroke-opacity=".6" stroke-width="1.6" stroke-linecap="round"/>
+    <text y="94" font-size="6.6" text-anchor="middle"><tspan fill="#34e5c9">✓ 8 passed</tspan><tspan fill="#5d6a80">   </tspan><tspan fill="#ffb454">○ 1 skipped: giving up</tspan></text>
+    <rect x="-50" y="104" width="100" height="14" rx="7" fill="#34e5c9"/>
+    <text y="113.6" font-size="6" font-weight="700" fill="#060911" text-anchor="middle" letter-spacing=".8">QUALITY GATE PASSED</text>
+    <text y="137" font-size="5.4" fill="#5d6a80" text-anchor="middle" letter-spacing=".5">JAWAD ALSHEYAB · SENIOR SQC ENGINEER</text>
+    </g>
+  </g>
+  <g class="turn" transform="translate(450 250) rotate(0)" style="animation-delay:-4s">
+    <g class="zoom" transform="scale(1)" style="animation-delay:-4s">
+    <path d="M-160.6 0A160.6 160.6 0 1 0 160.6 0A160.6 160.6 0 1 0 -160.6 0ZM-39.4 0A39.4 39.4 0 1 0 39.4 0A39.4 39.4 0 1 0 -39.4 0Z" fill="#0a0f1a" fill-rule="evenodd"/>
+    <circle r="160" fill="none" stroke="#34e5c9" stroke-opacity=".3" stroke-width=".8"/>
+    <g clip-path="url(#annulus)"><text x="-150" y="-150" font-size="6.6" fill="#8a96ab" xml:space="preserve">  describe("wallet transfer", () =&gt; {</text><text x="-150" y="-137" font-size="6.6" fill="#8a96ab" xml:space="preserve">    it("rejects overdrafts", async () =&gt; {</text><rect x="-160" y="-132.5" width="320" height="11" fill="#ff5f57" fill-opacity=".1"/><text x="-150" y="-124" font-size="6.6" fill="#ff5f57" xml:space="preserve">-     if (amount &gt; balance) approve(tx);</text><rect x="-160" y="-119.5" width="320" height="11" fill="#34e5c9" fill-opacity=".1"/><text x="-150" y="-111" font-size="6.6" fill="#34e5c9" xml:space="preserve">+     if (amount &lt;= balance) approve(tx);</text><text x="-150" y="-98" font-size="6.6" fill="#8a96ab" xml:space="preserve">      const VAT = 0.15;</text><rect x="-160" y="-93.5" width="320" height="11" fill="#ff5f57" fill-opacity=".1"/><text x="-150" y="-85" font-size="6.6" fill="#ff5f57" xml:space="preserve">-     total = price * VAT;</text><rect x="-160" y="-80.5" width="320" height="11" fill="#34e5c9" fill-opacity=".1"/><text x="-150" y="-72" font-size="6.6" fill="#34e5c9" xml:space="preserve">+     total = round(price * (1 + VAT), 2);</text><text x="-150" y="-59" font-size="6.6" fill="#8a96ab" xml:space="preserve">      expect(res.status).toBe(200);</text><rect x="-160" y="-54.5" width="320" height="11" fill="#ff5f57" fill-opacity=".1"/><text x="-150" y="-46" font-size="6.6" fill="#ff5f57" xml:space="preserve">-     retry(3); // flaky?</text><rect x="-160" y="-41.5" width="320" height="11" fill="#34e5c9" fill-opacity=".1"/><text x="-150" y="-33" font-size="6.6" fill="#34e5c9" xml:space="preserve">+     await waitFor(ledger.synced);</text><text x="-150" y="-20" font-size="6.6" fill="#8a96ab" xml:space="preserve">      assert.equal(receipt.iban, iban);</text><rect x="-160" y="-15.5" width="320" height="11" fill="#34e5c9" fill-opacity=".1"/><text x="-150" y="-7" font-size="6.6" fill="#34e5c9" xml:space="preserve">+     expect(audit.log).toContain(tx.id);</text><text x="-150" y="6" font-size="6.6" fill="#8a96ab" xml:space="preserve">    });</text><rect x="-160" y="10.5" width="320" height="11" fill="#ff5f57" fill-opacity=".1"/><text x="-150" y="19" font-size="6.6" fill="#ff5f57" xml:space="preserve">-   const fee = amount * rate;  // NaN on 0</text><rect x="-160" y="23.5" width="320" height="11" fill="#34e5c9" fill-opacity=".1"/><text x="-150" y="32" font-size="6.6" fill="#34e5c9" xml:space="preserve">+   const fee = amount ? amount * rate : 0;</text><text x="-150" y="45" font-size="6.6" fill="#8a96ab" xml:space="preserve">    it("handles Arabic names", () =&gt; {</text><rect x="-160" y="49.5" width="320" height="11" fill="#ff5f57" fill-opacity=".1"/><text x="-150" y="58" font-size="6.6" fill="#ff5f57" xml:space="preserve">-     name.split(" ").reverse();</text><rect x="-160" y="62.5" width="320" height="11" fill="#34e5c9" fill-opacity=".1"/><text x="-150" y="71" font-size="6.6" fill="#34e5c9" xml:space="preserve">+     normalize(name, { rtl: true });</text><text x="-150" y="84" font-size="6.6" fill="#8a96ab" xml:space="preserve">    });</text><rect x="-160" y="88.5" width="320" height="11" fill="#34e5c9" fill-opacity=".1"/><text x="-150" y="97" font-size="6.6" fill="#34e5c9" xml:space="preserve">+   it("survives a timeout", retryable);</text><text x="-150" y="110" font-size="6.6" fill="#8a96ab" xml:space="preserve">  });</text><rect x="-160" y="114.5" width="320" height="11" fill="#ff5f57" fill-opacity=".1"/><text x="-150" y="123" font-size="6.6" fill="#ff5f57" xml:space="preserve">- // TODO: test this later</text><rect x="-160" y="127.5" width="320" height="11" fill="#34e5c9" fill-opacity=".1"/><text x="-150" y="136" font-size="6.6" fill="#34e5c9" xml:space="preserve">+ // tested. every release.</text><text x="-150" y="149" font-size="6.6" fill="#8a96ab" xml:space="preserve">  // ✓ 0 known bugs in this file</text></g>
+    <rect x="82" y="-8" width="46" height="46" rx="3" fill="#34e5c9" fill-opacity=".07" stroke="#34e5c9" stroke-width=".9" stroke-dasharray="3 2"/>
+    <rect x="82" y="-19" width="64" height="10" rx="2" fill="#34e5c9"/>
+    <text x="114" y="-11.6" font-size="5.6" font-weight="700" fill="#060911" text-anchor="middle" letter-spacing=".3">BUG-404 CAUGHT</text>
+    <g transform="translate(105 16) rotate(-25)">
+      <g stroke="#1b2433" stroke-width="1.3" stroke-linecap="round">
+        <line x1="-6" y1="-4" x2="-12" y2="-8"/><line x1="6" y1="-4" x2="12" y2="-8"/>
+        <line x1="-7" y1="1" x2="-13" y2="1"/><line x1="7" y1="1" x2="13" y2="1"/>
+        <line x1="-6" y1="6" x2="-12" y2="10"/><line x1="6" y1="6" x2="12" y2="10"/>
+        <path d="M-1.5 -13.5q-2 -4 -6 -5M1.5 -13.5q2 -4 6 -5" fill="none"/>
+      </g>
+      <ellipse rx="7.5" ry="9.5" fill="#ff5f57"/>
+      <line y1="-9.5" y2="9.5" stroke="#1b2433" stroke-width=".9"/>
+      <circle cy="-11" r="4.2" fill="#1b2433"/>
+      <circle cx="-3.6" cy="-2" r="1.4" fill="#1b2433"/><circle cx="3.6" cy="1.5" r="1.4" fill="#1b2433"/><circle cx="-3" cy="5.5" r="1.1" fill="#1b2433"/>
+    </g>
+    </g>
+  </g>
+  <g class="turn" transform="translate(450 250) rotate(-14)" style="animation-delay:-2.4s">
+    <g class="zoom" transform="scale(0.25)" style="animation-delay:-2.4s">
+    <path d="M-160.6 0A160.6 160.6 0 1 0 160.6 0A160.6 160.6 0 1 0 -160.6 0ZM-39.4 0A39.4 39.4 0 1 0 39.4 0A39.4 39.4 0 1 0 -39.4 0Z" fill="#0c1322" fill-rule="evenodd"/>
+    <circle r="160" fill="none" stroke="#34e5c9" stroke-opacity=".3" stroke-width=".8"/>
+    <g stroke="#34e5c9" stroke-opacity=".35" stroke-width=".7"><line x1="142" y1="0" x2="152" y2="0"/><line x1="145.44" y1="12.72" x2="151.42" y2="13.25"/><line x1="143.78" y1="25.35" x2="149.69" y2="26.39"/><line x1="141.03" y1="37.79" x2="146.82" y2="39.34"/><line x1="137.2" y1="49.93" x2="142.83" y2="51.99"/><line x1="132.32" y1="61.7" x2="137.76" y2="64.24"/><line x1="122.98" y1="71" x2="131.64" y2="76"/><line x1="119.6" y1="83.74" x2="124.51" y2="87.18"/><line x1="111.84" y1="93.85" x2="116.44" y2="97.7"/><line x1="103.24" y1="103.24" x2="107.48" y2="107.48"/><line x1="93.85" y1="111.84" x2="97.7" y2="116.44"/><line x1="83.74" y1="119.6" x2="87.18" y2="124.51"/><line x1="71" y1="122.98" x2="76" y2="131.64"/><line x1="61.7" y1="132.32" x2="64.24" y2="137.76"/><line x1="49.93" y1="137.2" x2="51.99" y2="142.83"/><line x1="37.79" y1="141.03" x2="39.34" y2="146.82"/><line x1="25.35" y1="143.78" x2="26.39" y2="149.69"/><line x1="12.72" y1="145.44" x2="13.25" y2="151.42"/><line x1="0" y1="142" x2="0" y2="152"/><line x1="-12.72" y1="145.44" x2="-13.25" y2="151.42"/><line x1="-25.35" y1="143.78" x2="-26.39" y2="149.69"/><line x1="-37.79" y1="141.03" x2="-39.34" y2="146.82"/><line x1="-49.93" y1="137.2" x2="-51.99" y2="142.83"/><line x1="-61.7" y1="132.32" x2="-64.24" y2="137.76"/><line x1="-71" y1="122.98" x2="-76" y2="131.64"/><line x1="-83.74" y1="119.6" x2="-87.18" y2="124.51"/><line x1="-93.85" y1="111.84" x2="-97.7" y2="116.44"/><line x1="-103.24" y1="103.24" x2="-107.48" y2="107.48"/><line x1="-111.84" y1="93.85" x2="-116.44" y2="97.7"/><line x1="-119.6" y1="83.74" x2="-124.51" y2="87.18"/><line x1="-122.98" y1="71" x2="-131.64" y2="76"/><line x1="-132.32" y1="61.7" x2="-137.76" y2="64.24"/><line x1="-137.2" y1="49.93" x2="-142.83" y2="51.99"/><line x1="-141.03" y1="37.79" x2="-146.82" y2="39.34"/><line x1="-143.78" y1="25.35" x2="-149.69" y2="26.39"/><line x1="-145.44" y1="12.72" x2="-151.42" y2="13.25"/><line x1="-142" y1="0" x2="-152" y2="0"/><line x1="-145.44" y1="-12.72" x2="-151.42" y2="-13.25"/><line x1="-143.78" y1="-25.35" x2="-149.69" y2="-26.39"/><line x1="-141.03" y1="-37.79" x2="-146.82" y2="-39.34"/><line x1="-137.2" y1="-49.93" x2="-142.83" y2="-51.99"/><line x1="-132.32" y1="-61.7" x2="-137.76" y2="-64.24"/><line x1="-122.98" y1="-71" x2="-131.64" y2="-76"/><line x1="-119.6" y1="-83.74" x2="-124.51" y2="-87.18"/><line x1="-111.84" y1="-93.85" x2="-116.44" y2="-97.7"/><line x1="-103.24" y1="-103.24" x2="-107.48" y2="-107.48"/><line x1="-93.85" y1="-111.84" x2="-97.7" y2="-116.44"/><line x1="-83.74" y1="-119.6" x2="-87.18" y2="-124.51"/><line x1="-71" y1="-122.98" x2="-76" y2="-131.64"/><line x1="-61.7" y1="-132.32" x2="-64.24" y2="-137.76"/><line x1="-49.93" y1="-137.2" x2="-51.99" y2="-142.83"/><line x1="-37.79" y1="-141.03" x2="-39.34" y2="-146.82"/><line x1="-25.35" y1="-143.78" x2="-26.39" y2="-149.69"/><line x1="-12.72" y1="-145.44" x2="-13.25" y2="-151.42"/><line x1="0" y1="-142" x2="0" y2="-152"/><line x1="12.72" y1="-145.44" x2="13.25" y2="-151.42"/><line x1="25.35" y1="-143.78" x2="26.39" y2="-149.69"/><line x1="37.79" y1="-141.03" x2="39.34" y2="-146.82"/><line x1="49.93" y1="-137.2" x2="51.99" y2="-142.83"/><line x1="61.7" y1="-132.32" x2="64.24" y2="-137.76"/><line x1="71" y1="-122.98" x2="76" y2="-131.64"/><line x1="83.74" y1="-119.6" x2="87.18" y2="-124.51"/><line x1="93.85" y1="-111.84" x2="97.7" y2="-116.44"/><line x1="103.24" y1="-103.24" x2="107.48" y2="-107.48"/><line x1="111.84" y1="-93.85" x2="116.44" y2="-97.7"/><line x1="119.6" y1="-83.74" x2="124.51" y2="-87.18"/><line x1="122.98" y1="-71" x2="131.64" y2="-76"/><line x1="132.32" y1="-61.7" x2="137.76" y2="-64.24"/><line x1="137.2" y1="-49.93" x2="142.83" y2="-51.99"/><line x1="141.03" y1="-37.79" x2="146.82" y2="-39.34"/><line x1="143.78" y1="-25.35" x2="149.69" y2="-26.39"/><line x1="145.44" y1="-12.72" x2="151.42" y2="-13.25"/></g>
+    <circle r="100" fill="none" stroke="#34e5c9" stroke-opacity=".45" stroke-width="1" stroke-dasharray="2 4"/>
+    <path id="tp-orbit" d="M-54 0A54 54 0 1 1 54 0A54 54 0 1 1 -54 0" fill="none"/>
+    <text font-size="6.4" fill="#8a96ab" letter-spacing="1.6"><textPath href="#tp-orbit">2017 → NOW · SEVEN YEARS · FIVE COMPANIES ·</textPath></text>
+    
+    <circle cx="0" cy="-100" r="15" fill="#34e5c9" fill-opacity=".15"/>
+    <circle cx="0" cy="-100" r="8.5" fill="#34e5c9" stroke="#34e5c9" stroke-width="1.6"/>
+    <text x="0" y="-124" font-family="'Space Grotesk','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="7.2" font-weight="700" fill="#e7ecf4" text-anchor="middle">Takamol · Qiwa</text>
+    <text x="0" y="-116" font-size="5.4" fill="#34e5c9" text-anchor="middle">2025 → now</text>
+    
+    <circle cx="95.11" cy="-30.9" r="8.5" fill="#0d1420" stroke="#34e5c9" stroke-width="1.6"/>
+    <text x="117.93" y="-38.32" font-family="'Space Grotesk','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="7.2" font-weight="700" fill="#e7ecf4" text-anchor="middle">ZATCA</text>
+    <text x="117.93" y="-30.32" font-size="5.4" fill="#8a96ab" text-anchor="middle">2024</text>
+    
+    <circle cx="58.78" cy="80.9" r="8.5" fill="#0d1420" stroke="#34e5c9" stroke-width="1.6"/>
+    <text x="72.89" y="100.32" font-family="'Space Grotesk','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="7.2" font-weight="700" fill="#e7ecf4" text-anchor="middle">STCpay</text>
+    <text x="72.89" y="108.32" font-size="5.4" fill="#8a96ab" text-anchor="middle">2022</text>
+    
+    <circle cx="-58.78" cy="80.9" r="8.5" fill="#0d1420" stroke="#8b7bff" stroke-width="1.6"/>
+    <text x="-72.89" y="100.32" font-family="'Space Grotesk','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="7.2" font-weight="700" fill="#e7ecf4" text-anchor="middle">Mixed Dimensions</text>
+    <text x="-72.89" y="108.32" font-size="5.4" fill="#8a96ab" text-anchor="middle">2019</text>
+    
+    <circle cx="-95.11" cy="-30.9" r="8.5" fill="#0d1420" stroke="#8b7bff" stroke-width="1.6"/>
+    <text x="-117.93" y="-38.32" font-family="'Space Grotesk','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="7.2" font-weight="700" fill="#e7ecf4" text-anchor="middle">Javna</text>
+    <text x="-117.93" y="-30.32" font-size="5.4" fill="#8a96ab" text-anchor="middle">2017</text>
+    </g>
+  </g>
+  <g class="turn" transform="translate(450 250) rotate(-28)" style="animation-delay:-0.8s">
+    <g class="zoom" transform="scale(0.0625)" style="animation-delay:-0.8s">
+    <path d="M-160.6 0A160.6 160.6 0 1 0 160.6 0A160.6 160.6 0 1 0 -160.6 0ZM-39.4 0A39.4 39.4 0 1 0 39.4 0A39.4 39.4 0 1 0 -39.4 0Z" fill="#0a0f1a" fill-rule="evenodd"/>
+    <circle r="160" fill="none" stroke="#34e5c9" stroke-opacity=".3" stroke-width=".8"/>
+    <circle r="100" fill="none" stroke="#8b7bff" stroke-opacity=".4" stroke-width="1"/>
+    <circle r="146" fill="none" stroke="#34e5c9" stroke-opacity=".2" stroke-width="5" stroke-dasharray="1 5"/>
+    <path id="tp-certs" d="M-54 0A54 54 0 1 1 54 0A54 54 0 1 1 -54 0" fill="none"/>
+    <text font-size="6.4" fill="#8a96ab" letter-spacing="1.6"><textPath href="#tp-certs">CERTIFIED · ISTQB® × SCRUM.ORG · 6 OF 6 ·</textPath></text>
+    
+    <polygon points="0,-127 23.38,-113.5 23.38,-86.5 0,-73 -23.38,-86.5 -23.38,-113.5" fill="#0d1420" stroke="#34e5c9" stroke-width="1.4"/>
+    <text x="0" y="-99" font-family="'Space Grotesk','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="7.6" font-weight="700" fill="#e7ecf4" text-anchor="middle">CTFL</text>
+    <text x="0" y="-90.5" font-size="4.6" fill="#34e5c9" text-anchor="middle" letter-spacing=".6">ISTQB®</text>
+    <polygon points="86.6,-77 109.98,-63.5 109.98,-36.5 86.6,-23 63.22,-36.5 63.22,-63.5" fill="#0d1420" stroke="#34e5c9" stroke-width="1.4"/>
+    <text x="86.6" y="-49" font-family="'Space Grotesk','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="7.6" font-weight="700" fill="#e7ecf4" text-anchor="middle">CT-MAT</text>
+    <text x="86.6" y="-40.5" font-size="4.6" fill="#34e5c9" text-anchor="middle" letter-spacing=".6">ISTQB®</text>
+    <polygon points="86.6,23 109.98,36.5 109.98,63.5 86.6,77 63.22,63.5 63.22,36.5" fill="#0d1420" stroke="#34e5c9" stroke-width="1.4"/>
+    <text x="86.6" y="51" font-family="'Space Grotesk','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="7.6" font-weight="700" fill="#e7ecf4" text-anchor="middle">CTFL-AT</text>
+    <text x="86.6" y="59.5" font-size="4.6" fill="#34e5c9" text-anchor="middle" letter-spacing=".6">ISTQB®</text>
+    <polygon points="0,73 23.38,86.5 23.38,113.5 0,127 -23.38,113.5 -23.38,86.5" fill="#0d1420" stroke="#8b7bff" stroke-width="1.4"/>
+    <text x="0" y="101" font-family="'Space Grotesk','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="7.6" font-weight="700" fill="#e7ecf4" text-anchor="middle">PSM I</text>
+    <text x="0" y="109.5" font-size="4.6" fill="#8b7bff" text-anchor="middle" letter-spacing=".6">SCRUM.ORG</text>
+    <polygon points="-86.6,23 -63.22,36.5 -63.22,63.5 -86.6,77 -109.98,63.5 -109.98,36.5" fill="#0d1420" stroke="#8b7bff" stroke-width="1.4"/>
+    <text x="-86.6" y="51" font-family="'Space Grotesk','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="7.6" font-weight="700" fill="#e7ecf4" text-anchor="middle">PSM II</text>
+    <text x="-86.6" y="59.5" font-size="4.6" fill="#8b7bff" text-anchor="middle" letter-spacing=".6">SCRUM.ORG</text>
+    <polygon points="-86.6,-77 -63.22,-63.5 -63.22,-36.5 -86.6,-23 -109.98,-36.5 -109.98,-63.5" fill="#0d1420" stroke="#8b7bff" stroke-width="1.4"/>
+    <text x="-86.6" y="-49" font-family="'Space Grotesk','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="7.6" font-weight="700" fill="#e7ecf4" text-anchor="middle">PSPO I</text>
+    <text x="-86.6" y="-40.5" font-size="4.6" fill="#8b7bff" text-anchor="middle" letter-spacing=".6">SCRUM.ORG</text>
+    </g>
+  </g>
+  <g class="turn" transform="translate(450 250) rotate(28)" style="animation-delay:-7.2s">
+    <g class="zoom" transform="scale(16)" style="animation-delay:-7.2s">
+    <path d="M-160.6 0A160.6 160.6 0 1 0 160.6 0A160.6 160.6 0 1 0 -160.6 0ZM-39.4 0A39.4 39.4 0 1 0 39.4 0A39.4 39.4 0 1 0 -39.4 0Z" fill="#0d1420" fill-rule="evenodd"/>
+    <circle r="160" fill="none" stroke="#34e5c9" stroke-opacity=".3" stroke-width=".8"/>
+    <path d="M134.68 -18.93L151.51 -12.19L151.51 12.19L134.68 18.93L131.67 34.05L144.64 46.72L135.31 69.24L117.18 69.03L108.61 81.85L115.75 98.51L98.51 115.75L81.85 108.61L69.03 117.18L69.24 135.31L46.72 144.64L34.05 131.67L18.93 134.68L12.19 151.51L-12.19 151.51L-18.93 134.68L-34.05 131.67L-46.72 144.64L-69.24 135.31L-69.03 117.18L-81.85 108.61L-98.51 115.75L-115.75 98.51L-108.61 81.85L-117.18 69.03L-135.31 69.24L-144.64 46.72L-131.67 34.05L-134.68 18.93L-151.51 12.19L-151.51 -12.19L-134.68 -18.93L-131.67 -34.05L-144.64 -46.72L-135.31 -69.24L-117.18 -69.03L-108.61 -81.85L-115.75 -98.51L-98.51 -115.75L-81.85 -108.61L-69.03 -117.18L-69.24 -135.31L-46.72 -144.64L-34.05 -131.67L-18.93 -134.68L-12.19 -151.51L12.19 -151.51L18.93 -134.68L34.05 -131.67L46.72 -144.64L69.24 -135.31L69.03 -117.18L81.85 -108.61L98.51 -115.75L115.75 -98.51L108.61 -81.85L117.18 -69.03L135.31 -69.24L144.64 -46.72L131.67 -34.05ZM-46 0A46 46 0 1 0 46 0A46 46 0 1 0 -46 0Z" fill="#0f1826" fill-rule="evenodd" stroke="#34e5c9" stroke-opacity=".55" stroke-width="1"/>
+    <circle r="128" fill="none" stroke="#34e5c9" stroke-opacity=".18" stroke-width=".8"/>
+    <circle r="50" fill="none" stroke="#ffb454" stroke-opacity=".5" stroke-width="1" stroke-dasharray="2 3"/>
+    
+    <circle cx="144" cy="0" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(0)" x="56" y="2" font-size="6.1" fill="#e7ecf4" text-anchor="start">black-box testing</text>
+    <circle cx="133.04" cy="55.11" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(22.5)" x="56" y="2" font-size="6.1" fill="#8a96ab" text-anchor="start">API testing</text>
+    <circle cx="101.82" cy="101.82" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(45)" x="56" y="2" font-size="6.1" fill="#e7ecf4" text-anchor="start">test automation</text>
+    <circle cx="55.11" cy="133.04" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(67.5)" x="56" y="2" font-size="6.1" fill="#8a96ab" text-anchor="start">regression</text>
+    <circle cx="0" cy="144" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(90)" x="56" y="2" font-size="6.1" fill="#e7ecf4" text-anchor="start">UAT</text>
+    <circle cx="-55.11" cy="133.04" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(292.5)" x="-56" y="2" font-size="6.1" fill="#8a96ab" text-anchor="end">SIT</text>
+    <circle cx="-101.82" cy="101.82" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(315)" x="-56" y="2" font-size="6.1" fill="#e7ecf4" text-anchor="end">mobile testing</text>
+    <circle cx="-133.04" cy="55.11" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(337.5)" x="-56" y="2" font-size="6.1" fill="#8a96ab" text-anchor="end">functional</text>
+    <circle cx="-144" cy="0" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(360)" x="-56" y="2" font-size="6.1" fill="#e7ecf4" text-anchor="end">non-functional</text>
+    <circle cx="-133.04" cy="-55.11" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(382.5)" x="-56" y="2" font-size="6.1" fill="#8a96ab" text-anchor="end">bug tracking</text>
+    <circle cx="-101.82" cy="-101.82" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(405)" x="-56" y="2" font-size="6.1" fill="#e7ecf4" text-anchor="end">critical thinking</text>
+    <circle cx="-55.11" cy="-133.04" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(427.5)" x="-56" y="2" font-size="6.1" fill="#8a96ab" text-anchor="end">analytical thinking</text>
+    <circle cx="0" cy="-144" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(270)" x="56" y="2" font-size="6.1" fill="#e7ecf4" text-anchor="start">attention to detail</text>
+    <circle cx="55.11" cy="-133.04" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(292.5)" x="56" y="2" font-size="6.1" fill="#8a96ab" text-anchor="start">time management</text>
+    <circle cx="101.82" cy="-101.82" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(315)" x="56" y="2" font-size="6.1" fill="#e7ecf4" text-anchor="start">communication</text>
+    <circle cx="133.04" cy="-55.11" r="1.7" fill="#34e5c9"/>
+    <text transform="rotate(337.5)" x="56" y="2" font-size="6.1" fill="#8a96ab" text-anchor="start">problem-solving</text>
+    </g>
+  </g>
+    <circle cx="450" cy="250" r="6" fill="url(#core)"/>
+    <rect width="900" height="500" fill="url(#vignette)"/>
+    <rect width="900" height="76" fill="url(#hudTop)"/>
+    <rect y="424" width="900" height="76" fill="url(#hudBottom)"/>
+  </g>
+
+  <!-- HUD: stays still while the world falls away -->
+  <g fill="none" stroke="#34e5c9" stroke-opacity=".75" stroke-width="2" stroke-linecap="round">
+    <path d="M18 40V18H40"/><path d="M882 40V18H860"/><path d="M18 460V482H40"/><path d="M882 460V482H860"/>
+  </g>
+  <g stroke="#34e5c9" stroke-opacity=".5" stroke-width="1">
+    <line x1="430" y1="250" x2="441" y2="250"/><line x1="459" y1="250" x2="470" y2="250"/>
+    <line x1="450" y1="230" x2="450" y2="241"/><line x1="450" y1="259" x2="450" y2="270"/>
+  </g>
+  <text x="34" y="40" font-size="11.5" letter-spacing="1.4"><tspan fill="#34e5c9" font-weight="700">JAWAD.QA</tspan><tspan fill="#5d6a80">  //  ENDLESS INSPECTION</tspan></text>
+  <g class="blink"><circle cx="766" cy="36" r="4" fill="#ff5f57"/></g>
+  <text x="866" y="40" font-size="11.5" fill="#e7ecf4" text-anchor="end" letter-spacing="1.4">INSPECTING</text>
+  <text x="34" y="470" font-size="10.5" fill="#5d6a80" letter-spacing=".6">4× per level · 5 worlds · 8s loop · zero cuts</text>
+  <text x="866" y="470" font-size="10.5" fill="#5d6a80" text-anchor="end" letter-spacing=".6">github.com/jawadsheyab</text>
+  <rect x=".5" y=".5" width="899" height="499" rx="17.5" fill="none" stroke="#8ca8cc" stroke-opacity=".18"/>
+</svg>

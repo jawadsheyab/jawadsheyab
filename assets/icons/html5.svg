@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="96" viewBox="0 0 84 96" role="img" aria-label="HTML5">
+  <defs>
+    <radialGradient id="tile-glow" cx="50%" cy="36%" r="55%">
+      <stop offset="0" stop-color="#e44d26" stop-opacity=".22"/><stop offset="1" stop-color="#e44d26" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x=".5" y=".5" width="83" height="95" rx="14" fill="#8ca8cc" fill-opacity=".08" stroke="#e44d26" stroke-opacity=".45"/>
+  <rect x="1" y="1" width="82" height="94" rx="13.5" fill="url(#tile-glow)"/>
+  <svg x="24" y="16" width="36" height="36" viewBox="0 0 128 128"><path fill="#E44D26" d="M19.037 113.876L9.032 1.661h109.936l-10.016 112.198-45.019 12.48z"/><path fill="#F16529" d="M64 116.8l36.378-10.086 8.559-95.878H64z"/><path fill="#EBEBEB" d="M64 52.455H45.788L44.53 38.361H64V24.599H29.489l.33 3.692 3.382 37.927H64zm0 35.743l-.061.017-15.327-4.14-.979-10.975H33.816l1.928 21.609 28.193 7.826.063-.017z"/><path fill="#fff" d="M63.952 52.455v13.763h16.947l-1.597 17.849-15.35 4.143v14.319l28.215-7.82.207-2.325 3.234-36.233.335-3.696h-3.708zm0-27.856v13.762h33.244l.276-3.092.628-6.978.329-3.692z"/></svg>
+  <text x="42" y="80" font-family="'JetBrains Mono','SFMono-Regular','Cascadia Code',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="600" fill="#738096" text-anchor="middle">HTML5</text>
+</svg>

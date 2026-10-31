@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="490" viewBox="0 0 900 490" role="img" aria-label="Skills shown as a passing test run: black-box testing, API testing, test automation, integration and regression testing, mobile testing, bug tracking, fintech and government domains, leading QA teams.">
+  <defs>
+    <radialGradient id="glow" cx="100%" cy="0%" r="60%">
+      <stop offset="0" stop-color="#34e5c9" stop-opacity=".1"/>
+      <stop offset="1" stop-color="#34e5c9" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="card"><rect width="900" height="490" rx="16"/></clipPath>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 13.5px; }
+    .t { fill: #e7ecf4; } .m { fill: #8a96ab; } .m2 { fill: #5d6a80; } .ok { fill: #34e5c9; } .warn { fill: #ffb454; } .v { fill: #8b7bff; }
+    .ln { animation: in .35s ease both; }
+    @keyframes in { from { opacity: 0; transform: translateX(-6px); } to { opacity: 1; transform: none; } }
+    .blink { animation: blink 1.05s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="490" fill="#0a0f1a"/>
+    <rect width="900" height="490" fill="url(#glow)"/>
+    <rect width="900" height="42" fill="#0f1826"/>
+    <rect y="42" width="900" height="1" fill="#8ca8cc" fill-opacity=".14"/>
+  </g>
+  <rect x=".5" y=".5" width="899" height="489" rx="15.5" fill="none" stroke="#8ca8cc" stroke-opacity=".18"/>
+
+  <!-- title bar -->
+  <circle cx="24" cy="21" r="6" fill="#ff5f57"/>
+  <circle cx="44" cy="21" r="6" fill="#febc2e"/>
+  <circle cx="64" cy="21" r="6" fill="#28c840"/>
+  <text x="450" y="25.5" class="mono m" font-size="12" text-anchor="middle" style="font-size:12px">jawad.spec.ts — quality-runner</text>
+  <text x="876" y="25.5" class="mono ok" text-anchor="end" style="font-size:11px;letter-spacing:1.5px">SKILLS</text>
+
+  <!-- run -->
+  <g class="mono">
+    <text x="32" y="82" class="ln" style="animation-delay:.2s"><tspan class="ok">$</tspan><tspan class="t"> quality-runner --suite</tspan><tspan class="v"> jawad.profile</tspan><tspan class="t"> --env</tspan><tspan class="warn"> production</tspan></text>
+
+    <g class="ln" style="animation-delay:.6s">
+      <rect x="32" y="100" width="52" height="20" rx="4" fill="#ffb454" fill-opacity=".15"/>
+      <text x="58" y="115" text-anchor="middle" class="warn" style="font-size:11.5px;font-weight:700">RUNS</text>
+      <text x="96" y="115" class="m">jawad.profile › core competencies</text>
+    </g>
+
+    <g class="ln" style="animation-delay:.9s"><text x="48" y="152"><tspan class="ok">✓</tspan><tspan class="t">  black-box &amp; experience-based testing</tspan></text><text x="868" y="152" text-anchor="end" class="m2">full SDLC</text></g>
+    <g class="ln" style="animation-delay:1.1s"><text x="48" y="178"><tspan class="ok">✓</tspan><tspan class="t">  API integration testing</tspan></text><text x="868" y="178" text-anchor="end" class="m2">Postman · Swagger</text></g>
+    <g class="ln" style="animation-delay:1.3s"><text x="48" y="204"><tspan class="ok">✓</tspan><tspan class="t">  test automation frameworks &amp; suites</tspan></text><text x="868" y="204" text-anchor="end" class="m2">Selenium · Cypress · TestNG</text></g>
+    <g class="ln" style="animation-delay:1.5s"><text x="48" y="230"><tspan class="ok">✓</tspan><tspan class="t">  system integration · regression · UAT</tspan></text><text x="868" y="230" text-anchor="end" class="m2">SIT · smoke · sanity</text></g>
+    <g class="ln" style="animation-delay:1.7s"><text x="48" y="256"><tspan class="ok">✓</tspan><tspan class="t">  mobile, functional &amp; non-functional testing</tspan></text><text x="868" y="256" text-anchor="end" class="m2">web · iOS · Android</text></g>
+    <g class="ln" style="animation-delay:1.9s"><text x="48" y="282"><tspan class="ok">✓</tspan><tspan class="t">  bug tracking &amp; test management</tspan></text><text x="868" y="282" text-anchor="end" class="m2">Jira · TestRail</text></g>
+    <g class="ln" style="animation-delay:2.1s"><text x="48" y="308"><tspan class="ok">✓</tspan><tspan class="t">  fintech, tax &amp; gov-scale domains</tspan></text><text x="868" y="308" text-anchor="end" class="m2">STCpay · ZATCA · Qiwa</text></g>
+    <g class="ln" style="animation-delay:2.3s"><text x="48" y="334"><tspan class="ok">✓</tspan><tspan class="t">  leading cross-functional QA teams</tspan></text><text x="868" y="334" text-anchor="end" class="m2">Agile · Scrum</text></g>
+    <g class="ln" style="animation-delay:2.6s"><text x="48" y="360"><tspan class="warn">○</tspan><tspan class="m">  giving up</tspan></text><text x="868" y="360" text-anchor="end" class="warn">skipped · never</text></g>
+
+    <rect x="32" y="380" width="836" height="1" fill="#8ca8cc" fill-opacity=".14" class="ln" style="animation-delay:2.9s"/>
+
+    <text x="32" y="408" class="ln" style="animation-delay:3.1s"><tspan class="m">Tests:  </tspan><tspan class="ok" font-weight="700">8 passed</tspan><tspan class="m">, </tspan><tspan class="warn">1 skipped</tspan><tspan class="m">, 0 failed</tspan></text>
+    <text x="32" y="432" class="ln" style="animation-delay:3.3s"><tspan class="m">Time:   </tspan><tspan class="t">7+ years</tspan><tspan class="m2">  (2017 → now)</tspan></text>
+
+    <g class="ln" style="animation-delay:3.6s">
+      <rect x="32" y="448" width="214" height="24" rx="5" fill="#34e5c9"/>
+      <text x="139" y="464.5" text-anchor="middle" style="font-size:12px;font-weight:700;letter-spacing:1px" fill="#060911">✔ QUALITY GATE PASSED</text>
+      <text x="258" y="465" class="ok blink">▍</text>
+    </g>
+  </g>
+</svg>

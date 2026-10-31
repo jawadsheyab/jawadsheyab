@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="96" viewBox="0 0 84 96" role="img" aria-label="Burp Suite">
+  <defs>
+    <radialGradient id="tile-glow" cx="50%" cy="36%" r="55%">
+      <stop offset="0" stop-color="#ff6633" stop-opacity=".22"/><stop offset="1" stop-color="#ff6633" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x=".5" y=".5" width="83" height="95" rx="14" fill="#8ca8cc" fill-opacity=".08" stroke="#ff6633" stroke-opacity=".45"/>
+  <rect x="1" y="1" width="82" height="94" rx="13.5" fill="url(#tile-glow)"/>
+  <svg x="24" y="16" width="36" height="36" viewBox="0 0 24 24"><path fill="#FF6633" d="M0 0v24h24V0Zm11.063 3.357h1.874v2.756L10.41 9.2h2.527v3.748h4.579l-4.578 5.592v2.104h-1.876v-2.758L13.59 14.8h-2.527v-3.75h-4.58l4.58-5.592Z"/></svg>
+  <text x="42" y="80" font-family="'JetBrains Mono','SFMono-Regular','Cascadia Code',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="600" fill="#738096" text-anchor="middle">Burp Suite</text>
+</svg>

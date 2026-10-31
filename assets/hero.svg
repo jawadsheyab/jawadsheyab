@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470" role="img" aria-label="Jawad Alsheyab, Senior Software Quality Control Engineer. I test software until it can't break.">
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8ca8cc" stroke-opacity=".07"/>
+    </pattern>
+    <radialGradient id="glowA" cx="88%" cy="8%" r="60%">
+      <stop offset="0" stop-color="#34e5c9" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#34e5c9" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowB" cx="0%" cy="100%" r="55%">
+      <stop offset="0" stop-color="#8b7bff" stop-opacity=".2"/>
+      <stop offset="1" stop-color="#8b7bff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="grad" x1="0" x2="1">
+      <stop offset="0" stop-color="#34e5c9"/>
+      <stop offset="1" stop-color="#8b7bff"/>
+    </linearGradient>
+    <linearGradient id="scanGrad" x1="0" x2="1">
+      <stop offset="0" stop-color="#34e5c9" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#34e5c9" stop-opacity=".5"/>
+      <stop offset="1" stop-color="#34e5c9" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="900" height="470" rx="18"/></clipPath>
+    <path id="ring" d="M770 195 m-62 0 a62 62 0 1 1 124 0 a62 62 0 1 1 -124 0"/>
+  </defs>
+  <style>
+    .mono { font-family: 'JetBrains Mono', 'SFMono-Regular', 'Cascadia Code', Consolas, 'Liberation Mono', Menlo, monospace; }
+    .disp { font-family: 'Space Grotesk', 'Segoe UI', Inter, 'Helvetica Neue', Arial, sans-serif; }
+    .body { font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif; }
+    .up { animation: up .8s cubic-bezier(.2,.7,.2,1) both; }
+    .d1 { animation-delay: .1s; } .d2 { animation-delay: .3s; } .d3 { animation-delay: .5s; }
+    .d4 { animation-delay: .75s; } .d5 { animation-delay: 1s; } .d6 { animation-delay: 1.2s; }
+    .d7 { animation-delay: 1.35s; } .d8 { animation-delay: 1.5s; } .d9 { animation-delay: 1.65s; }
+    @keyframes up { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+    .scan { animation: scan 7s linear infinite; }
+    @keyframes scan { from { transform: translateY(-10px); } to { transform: translateY(480px); } }
+    .pulse { transform-box: fill-box; transform-origin: center; animation: pulse 1.8s ease-out infinite; }
+    @keyframes pulse { from { transform: scale(1); opacity: .7; } to { transform: scale(3.2); opacity: 0; } }
+    .spin { transform-box: view-box; transform-origin: 770px 195px; animation: spin 24s linear infinite; }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .blink { animation: blink 1.05s steps(1) infinite; }
+    @keyframes blink { 50% { opacity: 0; } }
+    .check { stroke-dasharray: 90; animation: draw .9s ease 1.4s both; }
+    @keyframes draw { from { stroke-dashoffset: 90; } to { stroke-dashoffset: 0; } }
+  </style>
+
+  <g clip-path="url(#card)">
+    <rect width="900" height="470" fill="#060911"/>
+    <rect width="900" height="470" fill="url(#grid)"/>
+    <rect width="900" height="470" fill="url(#glowA)"/>
+    <rect width="900" height="470" fill="url(#glowB)"/>
+    <rect class="scan" x="0" y="0" width="900" height="2" fill="url(#scanGrad)"/>
+  </g>
+  <rect x=".5" y=".5" width="899" height="469" rx="17.5" fill="none" stroke="#8ca8cc" stroke-opacity=".18"/>
+
+  <!-- top bar -->
+  <g class="up d1">
+    <text x="40" y="46" class="disp" font-size="20" font-weight="700" fill="#e7ecf4" letter-spacing="1">JAWAD<tspan fill="#34e5c9">.</tspan></text>
+    <text x="860" y="45" class="mono" font-size="12" fill="#5d6a80" text-anchor="end">~/jawadsheyab <tspan fill="#34e5c9">$</tspan> whoami<tspan class="blink" fill="#34e5c9"> ▍</tspan></text>
+  </g>
+
+  <!-- status pill -->
+  <g class="up d2">
+    <rect x="40" y="72" width="374" height="28" rx="14" fill="#34e5c9" fill-opacity=".1" stroke="#34e5c9" stroke-opacity=".35"/>
+    <circle class="pulse" cx="58" cy="86" r="4" fill="#34e5c9"/>
+    <circle cx="58" cy="86" r="4" fill="#34e5c9"/>
+    <text x="72" y="90" class="mono" font-size="11" fill="#34e5c9" letter-spacing="1.2">STATUS: OPEN TO OPPORTUNITIES · RIYADH, SA</text>
+  </g>
+
+  <!-- headline -->
+  <text x="40" y="146" class="disp up d3" font-size="20" fill="#8a96ab">Hello, I'm</text>
+  <text x="38" y="202" class="disp up d4" font-size="54" font-weight="700" fill="#e7ecf4" letter-spacing="-1">Jawad Alsheyab<tspan fill="#34e5c9">.</tspan></text>
+  <text x="40" y="250" class="disp up d5" font-size="30" font-weight="600" fill="url(#grad)">I test software until it can't break.</text>
+  <text x="40" y="290" class="body up d6" font-size="15" fill="#8a96ab">Senior Software Quality Control Engineer · 7 years in fintech &amp; gov-scale platforms.</text>
+  <text x="40" y="313" class="body up d6" font-size="15" fill="#8a96ab">Currently securing the <tspan fill="#e7ecf4" font-weight="600">Qiwa</tspan> platform at <tspan fill="#e7ecf4" font-weight="600">Takamol</tspan>.</text>
+
+  <!-- QA VERIFIED stamp -->
+  <g class="up d5">
+    <circle cx="770" cy="195" r="80" fill="#34e5c9" fill-opacity=".05" stroke="#34e5c9" stroke-opacity=".25" stroke-dasharray="3 6"/>
+    <circle cx="770" cy="195" r="46" fill="#0d1420" stroke="#34e5c9" stroke-opacity=".6" stroke-width="1.5"/>
+    <g class="spin">
+      <text class="mono" font-size="11" fill="#34e5c9" letter-spacing="3.2"><textPath href="#ring">QA VERIFIED · QUALITY GATE PASSED · QA VERIFIED · </textPath></text>
+    </g>
+    <path class="check" d="M752 196 l12 12 l24 -26" fill="none" stroke="#34e5c9" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- stats -->
+  <g class="up d6">
+    <rect x="40" y="350" width="196" height="84" rx="12" fill="#0d1420" stroke="#8ca8cc" stroke-opacity=".14"/>
+    <text x="60" y="392" class="disp" font-size="30" font-weight="700" fill="#34e5c9">7+</text>
+    <text x="60" y="418" class="mono" font-size="10.5" fill="#8a96ab" letter-spacing="1">YEARS OF EXPERIENCE</text>
+  </g>
+  <g class="up d7">
+    <rect x="248" y="350" width="196" height="84" rx="12" fill="#0d1420" stroke="#8ca8cc" stroke-opacity=".14"/>
+    <text x="268" y="392" class="disp" font-size="30" font-weight="700" fill="#34e5c9">5</text>
+    <text x="268" y="418" class="mono" font-size="10.5" fill="#8a96ab" letter-spacing="1">COMPANIES SERVED</text>
+  </g>
+  <g class="up d8">
+    <rect x="456" y="350" width="196" height="84" rx="12" fill="#0d1420" stroke="#8ca8cc" stroke-opacity=".14"/>
+    <text x="476" y="392" class="disp" font-size="30" font-weight="700" fill="#8b7bff">6</text>
+    <text x="476" y="418" class="mono" font-size="10.5" fill="#8a96ab" letter-spacing="1">CERTIFICATIONS</text>
+  </g>
+  <g class="up d9">
+    <rect x="664" y="350" width="196" height="84" rx="12" fill="#0d1420" stroke="#8ca8cc" stroke-opacity=".14"/>
+    <text x="684" y="392" class="disp" font-size="30" font-weight="700" fill="#ffb454">16+</text>
+    <text x="684" y="418" class="mono" font-size="10.5" fill="#8a96ab" letter-spacing="1">CORE TESTING SKILLS</text>
+  </g>
+</svg>

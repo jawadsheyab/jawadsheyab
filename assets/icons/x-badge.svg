@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="96" viewBox="0 0 84 96" role="img" aria-label="X">
+  <defs>
+    <radialGradient id="tile-glow" cx="50%" cy="36%" r="55%">
+      <stop offset="0" stop-color="#8a96ab" stop-opacity=".22"/><stop offset="1" stop-color="#8a96ab" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x=".5" y=".5" width="83" height="95" rx="14" fill="#8ca8cc" fill-opacity=".08" stroke="#8a96ab" stroke-opacity=".45"/>
+  <rect x="1" y="1" width="82" height="94" rx="13.5" fill="url(#tile-glow)"/>
+  <svg x="24" y="16" width="36" height="36" viewBox="0 0 24 24"><rect width="24" height="24" rx="5.5" fill="#000000"/><rect x=".5" y=".5" width="23" height="23" rx="5" fill="none" stroke="#ffffff" stroke-opacity=".18"/><g transform="translate(5 5) scale(.5833)"><path fill="#ffffff" d="M18.901 1.153h3.68l-8.04 9.19L24 22.846h-7.406l-5.8-7.584-6.638 7.584H.474l8.6-9.83L0 1.154h7.594l5.243 6.932ZM17.61 20.644h2.039L6.486 3.24H4.298Z"/></g></svg>
+  <text x="42" y="80" font-family="'JetBrains Mono','SFMono-Regular','Cascadia Code',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="600" fill="#738096" text-anchor="middle">X</text>
+</svg>

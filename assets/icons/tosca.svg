@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="84" height="96" viewBox="0 0 84 96" role="img" aria-label="Tosca">
+  <defs>
+    <radialGradient id="tile-glow" cx="50%" cy="36%" r="55%">
+      <stop offset="0" stop-color="#2a6fdb" stop-opacity=".22"/><stop offset="1" stop-color="#2a6fdb" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x=".5" y=".5" width="83" height="95" rx="14" fill="#8ca8cc" fill-opacity=".08" stroke="#2a6fdb" stroke-opacity=".45"/>
+  <rect x="1" y="1" width="82" height="94" rx="13.5" fill="url(#tile-glow)"/>
+  <svg x="24" y="16" width="36" height="36" viewBox="0 0 24 24"><path fill="#12438c" d="M14.271 10.42L6.86 3.006L9.833.034l4.438 4.438L18.742 0l2.974 2.974ZM9.825 24l-2.973-2.974l7.445-7.445l7.412 7.412l-2.974 2.973l-4.438-4.437zm-4.567-4.568l-2.974-2.974l4.47-4.47l-4.437-4.439l2.974-2.974l7.412 7.412Z"/></svg>
+  <text x="42" y="80" font-family="'JetBrains Mono','SFMono-Regular','Cascadia Code',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="600" fill="#738096" text-anchor="middle">Tosca</text>
+</svg>

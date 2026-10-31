@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="64" viewBox="0 0 900 64" role="img" aria-label="Socials">
+  <defs>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#0d1420" stroke-opacity=".06"/></pattern>
+    <linearGradient id="fade" x1="0" x2="1">
+      <stop offset="0" stop-color="#d9822b" stop-opacity="0.1"/><stop offset=".6" stop-color="#d9822b" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect width="900" height="64" rx="12"/></clipPath>
+  </defs>
+  <g clip-path="url(#card)">
+    <rect width="900" height="64" fill="#f6f8fb"/>
+    <rect width="900" height="64" fill="url(#grid)"/>
+    <rect width="900" height="64" fill="url(#fade)"/>
+    <rect x="0" y="0" width="4" height="64" fill="#d9822b"/>
+  </g>
+  <rect x=".5" y=".5" width="899" height="63" rx="11.5" fill="none" stroke="#0d1420" stroke-opacity=".18"/>
+  <text x="28" y="39" font-family="'JetBrains Mono','SFMono-Regular','Cascadia Code',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" fill="#d9822b" letter-spacing="2">04 //</text>
+  <text x="84" y="40.5" font-family="'Space Grotesk','Segoe UI',Inter,'Helvetica Neue',Arial,sans-serif" font-size="22" font-weight="700" fill="#0d1420">Socials</text>
+  <text x="872" y="38" font-family="'JetBrains Mono','SFMono-Regular','Cascadia Code',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" fill="#7a8699" text-anchor="end">say hi 👋</text>
+</svg>
